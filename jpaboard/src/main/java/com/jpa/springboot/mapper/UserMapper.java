@@ -1,11 +1,11 @@
-package com.jpa.mapper;
+package com.jpa.springboot.mapper;
 
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
-import com.jpa.model.User;
+import com.jpa.springboot.model.User;
 
 @Mapper
 @Repository

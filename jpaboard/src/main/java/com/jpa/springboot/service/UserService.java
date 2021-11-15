@@ -1,8 +1,8 @@
-package com.jpa.service;
+package com.jpa.springboot.service;
 
 import java.util.Map;
 
-import com.jpa.model.User;
+import com.jpa.springboot.model.User;
 
 public interface UserService {
 	

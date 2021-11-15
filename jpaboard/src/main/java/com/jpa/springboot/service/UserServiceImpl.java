@@ -1,12 +1,12 @@
-package com.jpa.service;
+package com.jpa.springboot.service;
 
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jpa.mapper.UserMapper;
-import com.jpa.model.User;
+import com.jpa.springboot.mapper.UserMapper;
+import com.jpa.springboot.model.User;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {

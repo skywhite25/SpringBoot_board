@@ -1,4 +1,4 @@
-package com.jpa.model;
+package com.jpa.springboot.model;
 
 public class User {
 	
