@@ -4,7 +4,7 @@
 	
 <mapper namespace="com.jpa.springboot.mapper.UserMapper">
 	<select id="login" parameterType="map" resultType="User">
-		select username, userid, email
+		select userid, username, email
 		from user
 		where userid = #{userid} and userpwd = #{userpwd}
 	</select>

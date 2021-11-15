@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>방문 확인 서비스</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
@@ -31,7 +31,7 @@
 			</div>
 			<a href="${root }/article/write">글쓰기</a><br>
 			<a href="${root }/article/list?page=1&key=&word=">글목록</a><br>
-			<a href="${root }/user/list">회원목록</a><br>
+			<a href="${root }/user/list">회원목록</a>
 		</c:if>
 	</div>
 </body>
